@@ -52,7 +52,11 @@ npm i cross-env
 
 ### Change the MogoDB connection
 .env.development
-MONGODB_URI
+
+|Vraible|Description|
+|---|---|
+|MONGODB_URI|The URI to connect MongoDB|
+|-|-|
 
 ## Start service in development environment
 npm run start:dev
