@@ -39,11 +39,20 @@ nest g controller [controller name]
 #### Generate Service
 nest g service [service name]
 
+### Using .env file to config
+Reference : https://docs.nestjs.com/techniques/configuration
+
 ### Connect With MonogoDB
 Reference : https://docs.nestjs.com/techniques/mongodb
 
+### to fix window and linix has different set enivronemnt command
+npm i cross-env
 
 ## Using this demo
 
 ### Change the MogoDB connection
-app.module.ts
+.env.development
+MONGODB_URI
+
+## Start service in development environment
+npm run start:dev
