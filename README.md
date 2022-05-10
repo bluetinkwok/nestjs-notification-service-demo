@@ -27,6 +27,7 @@ nest new nestjs-notification-service-demo
 Modules : https://docs.nestjs.com/modules
 Controllers : https://docs.nestjs.com/controllers
 Service & Provider : https://docs.nestjs.com/providers
+Pipes: https://docs.nestjs.com/pipes
 
 ### Basic Command
 
@@ -47,6 +48,18 @@ Reference : https://docs.nestjs.com/techniques/mongodb
 
 ### to fix window and linix has different set enivronemnt command
 npm i cross-env
+
+### to use express query
+npm install --save @types/express-serve-static-core
+
+## install validator
+npm i --save class-validator class-transformer
+
+## install jwt passsport
+npm i @nestjs/jwt @nestjs/passport passport passport-jwt --save
+
+## install bcryptjs (for hashing)
+npm i bcryptjs --save
 
 ## Using this demo
 
